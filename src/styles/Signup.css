@@ -1,0 +1,101 @@
+.signup-page {
+    background-image: url('https://i.pinimg.com/564x/dd/85/8b/dd858bc35e18a1b1e861888b58df2602.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center; 
+    height: 330px;
+  }
+  
+  .signup-container h1 {
+    text-align: center;
+    color: black;
+    border: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    border: black;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 8px;
+    font-family: monospace;
+    font-size: 16.2px;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    width: 150px;
+    padding: 8px 4px;
+    margin-top: 5px;
+    padding-left: 2px;
+    padding-right: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center;
+    margin-top: 15px; /* Add margin to separate the button from the inputs */
+  }
+  
+  button {
+    background-color: #141414;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px; /* Set a specific width for the button */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .signup-link a {
+    color: #171616;
+    text-decoration: double;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  #submitbutton
+  {
+    align-items: center;
+  }

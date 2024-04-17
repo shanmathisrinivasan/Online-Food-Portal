@@ -1,0 +1,50 @@
+.user-page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/22/b9/79/22b9790737c10b7ef871416d506c2e84.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.user-profile-container {
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.27);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .profile-title {
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    margin-bottom: 30px;
+  }
+  
+  .order-history-title {
+    margin-bottom: 20px;
+  }
+  
+  .order-entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .logout-button {
+    margin-top: 20px;
+    background-color: #ff5757;
+    color: #fff;
+  }
+  

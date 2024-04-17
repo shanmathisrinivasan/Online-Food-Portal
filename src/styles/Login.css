@@ -1,0 +1,108 @@
+.login-body {
+    background-image: url('https://i.pinimg.com/originals/c7/94/be/c794be5349bc93ec47a2a17daab1b279.gif');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border:2px black ;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5)
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    color: black;
+    border: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    border: black;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 8px;
+    font-family: monospace;
+    font-size: 16.2px;
+    letter-spacing: 0px;
+  }
+  
+  input {
+    width: calc(100%-16px);
+    padding: 8px 4px;
+    margin-top: 5px;
+    padding-left: 2px;
+    padding-right: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+  
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-button {
+    background-color: #141414;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+    
+  }
+  
+  /* Style the forgot password link */
+  Link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  Link:hover {
+    text-decoration: underline;
+  }
+  .forgot-password-link
+  {
+    color: black;
+  }
+  
+  
+  .signup-link a {
+    color: #171616; /* Change this color to your desired color */
+    text-decoration:double;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }

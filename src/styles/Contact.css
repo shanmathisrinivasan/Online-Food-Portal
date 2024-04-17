@@ -1,0 +1,24 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.0); /* Semi-transparent white background */
+    padding: 20px; /* Add padding for better visibility */
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+  }
+  
+  .icon {
+    margin-right: 15px; /* Increased margin for better spacing */
+    font-size: 2rem; /* Increased font size for the icons */
+  }
+  
+  .contact-text {
+    font-size: 1.5rem; /* Increased font size for the text */
+  }
